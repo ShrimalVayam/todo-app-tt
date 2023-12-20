@@ -24,7 +24,7 @@ yarn install
 
 ## Database
 
-THe following command will bring up the database at 2718 port
+The following command will bring up the database at 2718 port
 
 ```
 docker compose up
@@ -57,7 +57,7 @@ yarn start:service
 yarn start:client
 ```
 
-- This will bring the Frontend React service up at 12345 by default
+- This will bring the Frontend React service up at 3000 by default
 
 ## To Visit App:
 
@@ -71,5 +71,5 @@ localhost:3000/
 
 ### What improvements would have been done in more time?
 
-1. Would have imprved the auth mechanism with refresh tokens. As of now it is just issuing tokens and we have just made it for demo purposes of this task
+1. Would have improved the auth mechanism with refresh tokens. As of now it is just issuing tokens and we have just made it for demo purposes of this task
 2. Error handling could be improved at BE and FE side
